@@ -1,7 +1,7 @@
-Customer Details API
+#Customer Details API
 This is a simple RESTful API for managing customer details. The API is implemented in Java using the Spring Boot framework and interacts with a database to store customer information.
 
-Table of Contents
+#Table of Contents
 Features
 Technology Stack
 Prerequisites
@@ -21,13 +21,14 @@ Language: Java
 Framework: Spring Boot
 Database: H2 (In-memory database for demonstration purposes)
 Build Tool: Maven
-Prerequisites
+
+#Prerequisites
 Make sure you have the following installed before setting up the project:
 
 Java (JDK 8 or higher)
 Maven
 Your preferred IDE (Eclipse, IntelliJ, etc.)
-Setup and Configuration
+#Setup and Configuration
 Clone the repository:
 
 bash
@@ -35,9 +36,9 @@ Copy code
 git clone https://github.com/yourusername/customer-details-api.git
 Open the project in your IDE.
 
-Configure the database settings in src/main/resources/application.properties if necessary.
+#Configure the database settings in src/main/resources/application.properties if necessary.
 
-Running the Application
+#Running the Application
 To run the application, use one of the following methods:
 
 Using Maven:
@@ -57,7 +58,6 @@ Endpoint: POST /api/customers
 Payload: JSON data with customer details (name, email, dob, occupation)
 Get All Customers:
 Endpoint: GET /api/customers
-[Detailed API Documentation]
 
 Testing
 The project includes JUnit tests for validating the functionality. To run the tests:
